@@ -1,7 +1,8 @@
 # app-gold
 app gold - foreign trade
 
-npx react-native start
+Start Metro: 
+    npx react-native start
 
 Run instructions for iOS:
     • cd "/Users/akait/Documents/private/app-gold/AppGold" && npx react-native run-ios
