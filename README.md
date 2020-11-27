@@ -1,5 +1,5 @@
-# app-gold
-app gold - foreign trade
+# app-gold (react-native)
+app gold - foreign trade 
 
 Start Metro: 
     npx react-native start
