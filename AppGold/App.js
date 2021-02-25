@@ -43,7 +43,10 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edit: {moment(Date.now()).format('YYYY-MM-DD HH:mm:ss')}
+                screen and then come back to see your edit:
+              </Text>
+              <Text style={styles.sectionDescription}>
+                Now: {moment(Date.now()).format('YYYY-MM-DD HH:mm:ss')}
               </Text>
             </View>
             <View style={styles.sectionContainer}>
