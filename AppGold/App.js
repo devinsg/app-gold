@@ -15,7 +15,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
+import moment from 'moment';
 import {
   Header,
   LearnMoreLinks,
@@ -43,7 +43,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                screen and then come back to see your edit: {moment(Date.now()).format('YYYY-MM-DD HH:mm:ss')}
               </Text>
             </View>
             <View style={styles.sectionContainer}>
